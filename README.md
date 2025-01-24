@@ -51,7 +51,7 @@ This repository contains end-to-end tests using Cypress for web applications QA 
     ```
 
     
-- To open Cypress in interactive mode:
+- To run Cypress in specific scenario test:
     ```bash
     npm run test:newmeter_single_positive
     npm run test:newmeter_modular_positive
@@ -63,4 +63,10 @@ This repository contains end-to-end tests using Cypress for web applications QA 
     ```bash
     npm run report
     ```
+
+
+## Tests Run & Report
+
+https://github.com/user-attachments/assets/9c1685c2-3da2-43c0-9874-eae324f57e06
+
 
