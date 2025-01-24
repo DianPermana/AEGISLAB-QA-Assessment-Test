@@ -6,7 +6,7 @@ module.exports = defineConfig({
       config.browser = 'chrome';
     },
     env: {
-      USERNAME: 'green12',
+      USERNAME: 'redvelvet',
       PASSWORD: '123Password!123',
     },
     
