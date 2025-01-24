@@ -19,7 +19,7 @@ This repository contains end-to-end tests using Cypress for web applications QA 
 1. Clone the repository:
     ```bash
     https://github.com/DianPermana/AEGISLAB-QA-Assessment-Test.git
-    cd cypress-testing-framework
+    cd AEGISLAB-QA-Assessment-Test
     ```
 
 2. Install dependencies:
