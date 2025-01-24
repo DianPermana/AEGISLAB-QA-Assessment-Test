@@ -27,7 +27,7 @@ This repository contains end-to-end tests using Cypress for web applications QA 
           config.browser = 'chrome';
         },
         env: {
-          USERNAME: 'green12',
+          USERNAME: 'redvelvet',
           PASSWORD: '123Password!123',
         },
         
