@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress Testing",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-slow-down": "^1.3.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:newmeter_single_positive": "cypress run --spec 'cypress/e2e/MetersAndGroup/submit_init.cy.js'",
+    "test:newmeter_modular_positive": "cypress run --spec 'cypress/e2e/MetersAndGroup/submit_positive_case.cy.js'",
+    "test:newmeter_modular_negative": "cypress run --spec 'cypress/e2e/MetersAndGroup/submit_negative_case.cy.js'",
+    "test:newmeter_downloadcsv_positive": "cypress run --spec 'cypress/e2e/MetersAndGroup/download_file_csv.cy.js'",
+    "report": "mochawesome-merge cypress/reports/*.json > cypress/reports/output.json && mochawesome-report-generator cypress/reports/output.json"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Cypress",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-dotenv": "^3.0.1"
+  }
+}
