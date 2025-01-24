@@ -1,7 +1,7 @@
 describe('Meters & Group Module', () => {
   
-    const username = 'green';
-    const password = 'Password!123';
+    const username = 'redvelvet';
+    const password = '123Password!123';
   
     beforeEach(() => {
       // Perform login before accessing the input form
