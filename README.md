@@ -5,7 +5,14 @@ This repository contains end-to-end tests using Cypress for web applications QA 
 ## Prerequisites
 
 - Node.js (v14 or above)
-- npm (Node Package Manager)
+- Cypress package version: 14.0.0
+- Cypress binary version: 14.0.0
+- Electron version: 33.2.1
+- Bundled Node version: 20.18.1
+
+    ```bash
+    npm install cypress --save-dev
+    ```
 
 ## Installation
 
